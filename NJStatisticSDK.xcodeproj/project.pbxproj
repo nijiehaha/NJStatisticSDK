@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F93B4FD25187568006923D7 /* UITableView+SensorsData.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F93B4FB25187568006923D7 /* UITableView+SensorsData.h */; };
+		1F93B4FE25187568006923D7 /* UITableView+SensorsData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F93B4FC25187568006923D7 /* UITableView+SensorsData.m */; };
+		1F93B5012518762C006923D7 /* NSObject+NJSwizzler.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F93B4FF2518762C006923D7 /* NSObject+NJSwizzler.h */; };
+		1F93B5022518762C006923D7 /* NSObject+NJSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F93B5002518762C006923D7 /* NSObject+NJSwizzler.m */; };
+		1F93B50825188CF0006923D7 /* NJAnalyticsDynamicDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F93B50625188CF0006923D7 /* NJAnalyticsDynamicDelegate.h */; };
+		1F93B50925188CF0006923D7 /* NJAnalyticsDynamicDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F93B50725188CF0006923D7 /* NJAnalyticsDynamicDelegate.m */; };
+		1F93B50C2518986D006923D7 /* NJAnalyticsDelegateProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F93B50A2518986D006923D7 /* NJAnalyticsDelegateProxy.h */; };
+		1F93B50D2518986D006923D7 /* NJAnalyticsDelegateProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F93B50B2518986D006923D7 /* NJAnalyticsDelegateProxy.m */; };
+		1F93B51025189B2E006923D7 /* UIScrollView+SensorsData.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F93B50E25189B2E006923D7 /* UIScrollView+SensorsData.h */; };
+		1F93B51125189B2E006923D7 /* UIScrollView+SensorsData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F93B50F25189B2E006923D7 /* UIScrollView+SensorsData.m */; };
 		1FFD5F92248F589D00A61BF3 /* NJStatisticSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFD5F88248F589D00A61BF3 /* NJStatisticSDK.framework */; };
 		1FFD5F97248F589D00A61BF3 /* NJStatisticSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFD5F96248F589D00A61BF3 /* NJStatisticSDKTests.m */; };
 		1FFD5F99248F589D00A61BF3 /* NJStatisticSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FFD5F8B248F589D00A61BF3 /* NJStatisticSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -26,6 +36,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F93B4FB25187568006923D7 /* UITableView+SensorsData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+SensorsData.h"; sourceTree = "<group>"; };
+		1F93B4FC25187568006923D7 /* UITableView+SensorsData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+SensorsData.m"; sourceTree = "<group>"; };
+		1F93B4FF2518762C006923D7 /* NSObject+NJSwizzler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+NJSwizzler.h"; sourceTree = "<group>"; };
+		1F93B5002518762C006923D7 /* NSObject+NJSwizzler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NJSwizzler.m"; sourceTree = "<group>"; };
+		1F93B50625188CF0006923D7 /* NJAnalyticsDynamicDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NJAnalyticsDynamicDelegate.h; sourceTree = "<group>"; };
+		1F93B50725188CF0006923D7 /* NJAnalyticsDynamicDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NJAnalyticsDynamicDelegate.m; sourceTree = "<group>"; };
+		1F93B50A2518986D006923D7 /* NJAnalyticsDelegateProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NJAnalyticsDelegateProxy.h; sourceTree = "<group>"; };
+		1F93B50B2518986D006923D7 /* NJAnalyticsDelegateProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NJAnalyticsDelegateProxy.m; sourceTree = "<group>"; };
+		1F93B50E25189B2E006923D7 /* UIScrollView+SensorsData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+SensorsData.h"; sourceTree = "<group>"; };
+		1F93B50F25189B2E006923D7 /* UIScrollView+SensorsData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+SensorsData.m"; sourceTree = "<group>"; };
 		1FFD5F88248F589D00A61BF3 /* NJStatisticSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NJStatisticSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FFD5F8B248F589D00A61BF3 /* NJStatisticSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NJStatisticSDK.h; sourceTree = "<group>"; };
 		1FFD5F8C248F589D00A61BF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -80,6 +100,16 @@
 				1FFD5F8C248F589D00A61BF3 /* Info.plist */,
 				1FFD5FE8248F5A2800A61BF3 /* NJStatisticTool.h */,
 				1FFD5FE9248F5A2800A61BF3 /* NJStatisticTool.m */,
+				1F93B4FB25187568006923D7 /* UITableView+SensorsData.h */,
+				1F93B4FC25187568006923D7 /* UITableView+SensorsData.m */,
+				1F93B4FF2518762C006923D7 /* NSObject+NJSwizzler.h */,
+				1F93B5002518762C006923D7 /* NSObject+NJSwizzler.m */,
+				1F93B50625188CF0006923D7 /* NJAnalyticsDynamicDelegate.h */,
+				1F93B50725188CF0006923D7 /* NJAnalyticsDynamicDelegate.m */,
+				1F93B50A2518986D006923D7 /* NJAnalyticsDelegateProxy.h */,
+				1F93B50B2518986D006923D7 /* NJAnalyticsDelegateProxy.m */,
+				1F93B50E25189B2E006923D7 /* UIScrollView+SensorsData.h */,
+				1F93B50F25189B2E006923D7 /* UIScrollView+SensorsData.m */,
 			);
 			path = NJStatisticSDK;
 			sourceTree = "<group>";
@@ -100,8 +130,13 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F93B5012518762C006923D7 /* NSObject+NJSwizzler.h in Headers */,
+				1F93B4FD25187568006923D7 /* UITableView+SensorsData.h in Headers */,
+				1F93B50825188CF0006923D7 /* NJAnalyticsDynamicDelegate.h in Headers */,
 				1FFD5F99248F589D00A61BF3 /* NJStatisticSDK.h in Headers */,
 				1FFD5FEA248F5A2800A61BF3 /* NJStatisticTool.h in Headers */,
+				1F93B51025189B2E006923D7 /* UIScrollView+SensorsData.h in Headers */,
+				1F93B50C2518986D006923D7 /* NJAnalyticsDelegateProxy.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +238,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FFD5FEB248F5A2800A61BF3 /* NJStatisticTool.m in Sources */,
+				1F93B50D2518986D006923D7 /* NJAnalyticsDelegateProxy.m in Sources */,
+				1F93B4FE25187568006923D7 /* UITableView+SensorsData.m in Sources */,
+				1F93B5022518762C006923D7 /* NSObject+NJSwizzler.m in Sources */,
+				1F93B50925188CF0006923D7 /* NJAnalyticsDynamicDelegate.m in Sources */,
+				1F93B51125189B2E006923D7 /* UIScrollView+SensorsData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

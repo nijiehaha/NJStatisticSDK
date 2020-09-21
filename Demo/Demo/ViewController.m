@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "TableViewController.h"
 
 @interface ViewController ()
 
@@ -22,5 +23,15 @@
     
 }
 
+- (void)viewDidAppear:(BOOL)animated {
+    
+    [super viewDidAppear:animated];
+    
+    UIViewController *vc = [TableViewController new];
+    vc.view.backgroundColor = [UIColor redColor];
+    
+    [self presentViewController:vc animated:false completion:nil];
+    
+}
 
 @end

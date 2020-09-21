@@ -22,6 +22,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param properties 事件属性
 - (void)track:(NSString *)eventName properties:(nullable NSDictionary<NSString *, id> *)properties;
 
+/// 追踪 UITableView row click 事件
+- (void)trackAppClickWithTableview:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath properties:(nullable NSDictionary<NSString *, id> *)properties;
+
 @end
 
 NS_ASSUME_NONNULL_END

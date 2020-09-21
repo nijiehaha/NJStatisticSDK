@@ -210,6 +210,18 @@ static NSString * const NJStatisticVersion = @"1.0.0";
     
 }
 
+- (void)trackAppClickWithTableview:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath properties:(NSDictionary<NSString *,id> *)properties {
+    
+    NSMutableDictionary *eventProperties = [NSMutableDictionary dictionary];
+    
+    /// 获取 UITableViewCell 对象，内容，位置
+    
+    [eventProperties addEntriesFromDictionary:eventProperties];
+    
+    [[NJStatisticTool sharedInstance] track:@"UITableView" properties:eventProperties];
+    
+}
+
 @end
 
 
