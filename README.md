@@ -12,4 +12,13 @@ iOS 全埋点 统计 SDK
 
 # 使用
 
+```
+#import <NJStatisticSDK/NJStatisticSDK.h>
+
+NJStatisticTool *tool = [NJStatisticTool sharedInstance];
+[tool track:@"test" properties:@{@"testKey": @"testValue"}];
+```
+
+# 安装
+
 因为是一个用来练习的项目，所以不提供其他的安装方式，需要使用的朋友，可以直接下载源码使用QAQ
